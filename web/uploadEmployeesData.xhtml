@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="WEB-INF/templates/Template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                  xmlns:f="http://java.sun.com/jsf/core"  
+                  xmlns:p="http://primefaces.org/ui"> 
+
+   
+
+    
+
+    <ui:define name="content">
+        
+      <h:form id="uploadForm" enctype="multipart/form-data">
+<!--                <h:panelGrid columns="2">
+                    <h:outputLabel for="file" value="Select file to upload all Employees details" />
+                    <input type="file" name="empData" value="asasaa" width="50%" />                    
+                    <h:message for="file" style="color: red;" />
+                    <h:panelGroup />
+                    <h:commandButton value="Submit" action="#{UtilizationUploadController.upload}" />
+                    <h:message for="uploadForm" infoStyle="color: green;" errorStyle="color: red;" />
+                </h:panelGrid>-->
+          
+          <h:form id="form" enctype="multipart/form-data">
+  <h:inputFile id="file" value="#{UtilizationUploadController.file}"/>
+  <h:commandButton value="Upload"
+      action="#{UtilizationUploadController.upload}"/>
+</h:form>
+            </h:form>
+        
+    </ui:define>
+
+  
+
+</ui:composition>

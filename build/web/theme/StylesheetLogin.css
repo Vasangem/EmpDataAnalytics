@@ -1,0 +1,51 @@
+FORM {
+	HEIGHT: 100%
+}
+.s-dwa-login-font {
+	FONT-SIZE: 8pt
+}
+.s-dwa-mode-font {
+	FONT-SIZE: 8pt
+}
+.s-dwa-body-font {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: xx-small
+}
+BODY {
+	BACKGROUND-COLOR: lightgrey
+}
+.s-dwa-login-table {
+	BORDER-BOTTOM: #7e7e7e 1px solid; BORDER-LEFT: #7e7e7e 1px solid; BACKGROUND-COLOR: white; WIDTH: 50em; BORDER-TOP: #7e7e7e 1px solid; BORDER-RIGHT: #7e7e7e 1px solid
+}
+.s-dwa-login-background {
+	BORDER-BOTTOM: #7e7e7e 1px solid; BORDER-LEFT: #7e7e7e 1px solid; BACKGROUND-COLOR: white; BORDER-TOP: #7e7e7e 1px solid; BORDER-RIGHT: #7e7e7e 1px solid
+}
+.s-dwa-error-text {
+	PADDING-LEFT: 10px; COLOR: #ff0000
+}
+.s-dwa-copyright {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px; FONT-FAMILY: Helvetica, Arial, sans-serif; COLOR: black; FONT-SIZE: 8pt
+}
+.s-dwa-button {
+	BORDER-BOTTOM-STYLE: outset; BORDER-RIGHT-STYLE: groove; BACKGROUND-COLOR: lightgrey; BORDER-TOP-STYLE: outset; BORDER-LEFT-STYLE: groove
+}
+.s-dwa-button-font {
+	FONT-SIZE: x-small
+}
+.s-dwa-rightborder {
+	BORDER-RIGHT: #000000 1px solid
+}
+.s-dwa-leftborder {
+	BORDER-LEFT: #7e7e7e 1px solid
+}
+.s-options-container {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #000000; FONT-SIZE: 8pt; PADDING-TOP: 5px; -moz-border-radius: 8px; -moz-box-sizing: border-box; -webkit-border-radius: .50em
+}
+.s-dwa-table {
+	BACKGROUND-IMAGE: url(Notes8Swoosh.png); WIDTH: 520px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 300px
+}
+.s-text {
+	FONT-FAMILY: Helvetica, Arial, sans-serif; COLOR: #000000; FONT-SIZE: 10pt
+}
+.s-banner {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}

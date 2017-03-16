@@ -1,0 +1,29 @@
+
+
+DIV#main_content {
+    margin-left: 214px;
+    padding: 18px;
+}
+
+.space_top {
+    margin-top: 14px !important;
+}
+ 
+ .button
+ {
+   background-color:#c8d7e3
+ }
+table th.tb-row{ background:#fff; font-weight:normal; }
+table tr.alt-row td,
+table tr.alt-row th.tb-row {background:#eee;}
+table.data-table-2{ margin-top:1px; }
+table.data-table-2 td,
+table.data-table-2 th.tb-row{ border-bottom-color: #ccc }
+table.data-table-2 td,
+table.data-table-2 th{ padding-left:5px; padding-right:5px; padding-top:4px; vertical-align:top; }
+table.data-table-2 th{ background:#c8d7e3; }
+
+table.data-table-2 caption { border-bottom:#fff solid 1px;
+                            text-align:left; background:#3c5f84; padding-top:3px; padding-bottom:4px; padding-left:6px; }
+table.data-table-2 caption B { color:#fff;}
+                            
